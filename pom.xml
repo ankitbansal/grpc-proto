@@ -10,6 +10,7 @@
     <name>Proto Example</name>
 
     <dependencies>
+
         <dependency>
             <groupId>io.grpc</groupId>
             <artifactId>grpc-netty</artifactId>
@@ -25,5 +26,14 @@
             <artifactId>grpc-stub</artifactId>
             <version>1.5.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.5.1</version>
+        </dependency>
+
     </dependencies>
+
+
 </project>
